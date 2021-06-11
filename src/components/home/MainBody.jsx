@@ -17,6 +17,15 @@ const MainBody = React.forwardRef(
       >
         <div id="stars"></div>
         <Container className="text-center">
+
+            <img
+                className="border border-secondary rounded-circle"
+                src={require("../../assets/img/me.jpg")}
+                alt="profilepicture"
+                width={150}
+                height={150}
+            />
+
           <h1 ref={ref} className="display-1">
             {title}
           </h1>

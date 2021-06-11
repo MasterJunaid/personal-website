@@ -51,7 +51,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: "http://ryanmiles.me/img/me.jpg",
+  imageLink: require("../assets/img/me.jpg"),
   imageSize: 300,
   message:
     "My name is Ryan Miles. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
@@ -121,6 +121,21 @@ const skills = {
   ],
 };
 
+const experiences = {
+  show: false,
+  heading: "Experiences",
+  data: [
+    {
+      role: 'Software Engineer',// Here Add Company Name
+      date: 'June 2018 – Present',
+    },
+    {
+      role: 'Front-End Developer',
+      date: 'May 2017 – May 2018',
+    },
+  ]
+}
+
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
@@ -130,22 +145,7 @@ const getInTouch = {
   email: "hashirshoaeb@gmail.com",
 };
 
-const experiences = {
-  show: false,
-  heading: "Experiences",
-  data: [
-    {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
-    },
-    {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
-    },
-  ]
-}
+
 
 // Blog SECTION
 // const blog = {
