@@ -54,6 +54,25 @@ const MainBody = React.forwardRef(
           >
             More about me
           </a>
+
+          <a
+            className="btn btn-outline-light btn-lg "
+            style={{marginLeft: '16px'}}
+            href="#aboutme"
+            role="button"
+            aria-label="Learn more about me"
+          >
+            Resume
+          </a>
+          <a
+            className="btn btn-outline-light btn-lg "
+            style={{marginLeft: '16px'}}
+            href="#aboutme"
+            role="button"
+            aria-label="Learn more about me"
+          >
+            Impossible List
+          </a>
         </Container>
       </Jumbotron>
     );

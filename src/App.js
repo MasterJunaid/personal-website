@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import {BrowserRouter, Route} from "react-router-dom";
 import {
   navBar,
   mainBody,
@@ -42,10 +42,7 @@ const Home = React.forwardRef((props, ref) => {
           resume={about.resume}
         />
       )}
-      {
-        experiences.show && (
-          <Experience experiences={experiences}/>
-        )
+      <Experience experiences={experiences}/>
       }
       {repos.show && (
         <Project
@@ -63,14 +60,12 @@ const Home = React.forwardRef((props, ref) => {
           imageSize={leadership.imageSize}
         />
       )}
-      {skills.show && (
-        <Skills
-          heading={skills.heading}
-          hardSkills={skills.hardSkills}
-          softSkills={skills.softSkills}
-        />
-      )}
-      
+      <Skills
+        heading={skills.heading}
+        hardSkills={skills.hardSkills}
+        softSkills={skills.softSkills}
+      />
+
     </>
   );
 });
@@ -80,8 +75,8 @@ const App = () => {
 
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
-      {navBar.show && <Navbar ref={titleRef} />}
-      <Route path="/" exact component={() => <Home ref={titleRef} />} />
+      {navBar.show && <Navbar ref={titleRef}/>}
+      <Route path="/" exact component={() => <Home ref={titleRef}/>}/>
       {/* {false && <Route path="/blog" exact component={Blog} />}
       {false && <Route path="/blog/:id" component={BlogPost} />} */}
       <Footer>
