@@ -62,12 +62,12 @@ const MainBody = React.forwardRef(
             role="button"
             aria-label="Learn more about me"
           >
-            Resume
+            Resumé
           </a>
           <a
             className="btn btn-outline-light btn-lg "
             style={{marginLeft: '16px'}}
-            href="#aboutme"
+            href="impossible.html"
             role="button"
             aria-label="Learn more about me"
           >

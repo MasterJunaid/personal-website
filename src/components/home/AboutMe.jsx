@@ -62,6 +62,16 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
                 >
                   Resume
                 </a>
+
+                <a
+                  className="btn btn-outline-dark btn-lg"
+                  style={{marginLeft: '16px'}}
+                  href="impossible.html"
+                  role="button"
+                  aria-label="Learn more about me"
+                >
+                  Impossible List
+                </a>
               </p>
             )}
           </div>

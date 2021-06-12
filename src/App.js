@@ -22,6 +22,8 @@ import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
 
 import Experience from "./components/home/Experience";
+import Interests from "./components/home/Interests";
+import Impossible from "./components/home/Impossible";
 
 const Home = React.forwardRef((props, ref) => {
   return (
@@ -65,6 +67,10 @@ const Home = React.forwardRef((props, ref) => {
         hardSkills={skills.hardSkills}
         softSkills={skills.softSkills}
       />
+
+      <Interests/>
+
+      <Impossible/>
 
     </>
   );
