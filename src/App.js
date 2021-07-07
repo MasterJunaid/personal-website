@@ -26,6 +26,11 @@ import Interests from "./components/home/Interests";
 import Impossible from "./components/home/Impossible";
 
 const Home = React.forwardRef((props, ref) => {
+  const [openGoals, setOpenGoals] = React.useState(false);
+
+  const showGoals = () => {
+    setOpenGoals(!openGoals)
+  }
   return (
     <>
       <MainBody
@@ -34,7 +39,9 @@ const Home = React.forwardRef((props, ref) => {
         message={mainBody.message}
         icons={mainBody.icons}
         ref={ref}
+        showGoals={showGoals}
       />
+
       {about.show && (
         <AboutMe
           heading={about.heading}
@@ -69,8 +76,9 @@ const Home = React.forwardRef((props, ref) => {
       />
 
       <Interests/>
-
-      <Impossible/>
+      {openGoals && (
+        <Impossible/>
+      )}
 
     </>
   );
@@ -83,6 +91,7 @@ const App = () => {
     <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
       {navBar.show && <Navbar ref={titleRef}/>}
       <Route path="/" exact component={() => <Home ref={titleRef}/>}/>
+      <Route path="/impossible" exact component={() => <Impossible ref={titleRef}/>}/>
       {/* {false && <Route path="/blog" exact component={Blog} />}
       {false && <Route path="/blog/:id" component={BlogPost} />} */}
       <Footer>

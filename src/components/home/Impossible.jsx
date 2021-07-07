@@ -2,16 +2,18 @@ import React from "react";
 import Interests from "./Interests";
 import Card from "react-bootstrap/Card";
 import {CardColumns, ListGroup, ListGroupItem} from "react-bootstrap";
+import MainBody from "./MainBody";
 
-const Impossible = () => {
+const Impossible = React.forwardRef(
+  ({}, ref) => {
   return (
-    <CardColumns>
+    <CardColumns ref={ref}>
       <Card>
         <Card.Img variant="top" />
         <Card.Body>
           <Card.Title><b>Fitness Goals</b></Card.Title>
           <ListGroup className="list-group-flush">
-            <ListGroupItem>Cras justo odio</ListGroupItem>
+            <ListGroupItem>Cras juswdadawdawdwdwadwadto odio</ListGroupItem>
             <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
             <ListGroupItem>Vestibulum at eros</ListGroupItem>
           </ListGroup>
@@ -100,5 +102,6 @@ const Impossible = () => {
     </CardColumns>
   )
 }
+);
 
-export default Impossible;
+export default Impossible

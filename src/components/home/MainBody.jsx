@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 
 const MainBody = React.forwardRef(
-  ({ gradient, title, message, icons }, ref) => {
+  ({ gradient, title, message, icons, showGoals }, ref) => {
     return (
       <Jumbotron
         fluid
@@ -67,7 +67,7 @@ const MainBody = React.forwardRef(
           <a
             className="btn btn-outline-light btn-lg "
             style={{marginLeft: '16px'}}
-            href="impossible.html"
+            onClick={showGoals}
             role="button"
             aria-label="Learn more about me"
           >
