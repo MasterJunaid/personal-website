@@ -1,2 +1,6 @@
 # https://www.robotstxt.org/robotstxt.html
-User-agent: *
+User-agent: archive.org_bot
+Disallow: /
+
+User-agent: ia_archiver
+Disallow: /
