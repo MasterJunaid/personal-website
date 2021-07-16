@@ -42,7 +42,7 @@ const about = {
   imageLink: require("../assets/img/me.jpg"),
   imageSize: 300,
   message:
-    "My name is Ryan Miles. I’m a current Computer Science graduate student at Georgia Institute of Technology. Through software engineering I want to be able to make people's lives better. I also love to help others learn in grow on their software engineering journey.",
+    "My name is Ryan Miles. I’m a current Computer Science graduate student at Georgia Institute of Technology. Through software engineering I want to be able to make people's lives better. I also love to help others grow on their software engineering journey.",
   resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 };
 
