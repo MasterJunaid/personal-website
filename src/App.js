@@ -23,7 +23,6 @@ import Leadership from "./components/home/Leadership.jsx";
 
 import Experience from "./components/home/Experience";
 import Interests from "./components/home/Interests";
-import Impossible from "./components/home/Impossible";
 
 const Home = React.forwardRef((props, ref) => {
   const [openGoals, setOpenGoals] = React.useState(false);
@@ -75,11 +74,6 @@ const Home = React.forwardRef((props, ref) => {
         softSkills={skills.softSkills}
       />
 
-      <Interests/>
-      {openGoals && (
-        <Impossible/>
-      )}
-
     </>
   );
 });
@@ -91,7 +85,6 @@ const App = () => {
     <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
       {navBar.show && <Navbar ref={titleRef}/>}
       <Route path="/" exact component={() => <Home ref={titleRef}/>}/>
-      <Route path="/impossible" exact component={() => <Impossible ref={titleRef}/>}/>
       {/* {false && <Route path="/blog" exact component={Blog} />}
       {false && <Route path="/blog/:id" component={BlogPost} />} */}
       <Footer>

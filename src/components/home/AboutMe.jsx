@@ -1,5 +1,4 @@
 import React from "react";
-import Pdf from "../../editable-stuff/resume.pdf";
 
 import axios from "axios";
 
@@ -60,7 +59,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
                   role="button"
                   aria-label="Resume/CV"
                 >
-                  Resume
+                  Resumé
                 </a>
 
                 <a
@@ -68,7 +67,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
                   style={{marginLeft: '16px'}}
                   href="impossible.html"
                   role="button"
-                  aria-label="Learn more about me"
+                  aria-label="impossible list"
                 >
                   Impossible List
                 </a>

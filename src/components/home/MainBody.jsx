@@ -69,6 +69,7 @@ const MainBody = React.forwardRef(
             style={{marginLeft: '16px'}}
             onClick={showGoals}
             role="button"
+            href="impossible.html"
             aria-label="Learn more about me"
           >
             Impossible List
