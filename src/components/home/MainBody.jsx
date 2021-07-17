@@ -15,7 +15,6 @@ const MainBody = React.forwardRef(
         }}
         className="title bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
       >
-        <div id="stars"></div>
         <Container className="text-center">
 
             <img
@@ -60,19 +59,9 @@ const MainBody = React.forwardRef(
             style={{marginLeft: '16px'}}
             href="#aboutme"
             role="button"
-            aria-label="Learn more about me"
+            aria-label="View my resume"
           >
             Resumé
-          </a>
-          <a
-            className="btn btn-outline-light btn-lg "
-            style={{marginLeft: '16px'}}
-            onClick={showGoals}
-            role="button"
-            href="impossible.html"
-            aria-label="Learn more about me"
-          >
-            Impossible List
           </a>
         </Container>
       </Jumbotron>

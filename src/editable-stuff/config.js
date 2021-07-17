@@ -115,27 +115,42 @@ const experiences = {
   data: [
     {
       company: 'bluefletch',
-      // companylogo: '../static/media/me.e73fee66.jpg',
+      companylogo: require('../assets/img/bf_logo.png'),
+      logoWidth: 100,
+      logoHeight: 100,
       role: 'Intern Android Developer at BlueFletch',// Here Add Company Name
       date: 'June 2018 – Present',
+      description: 'did work'
     },
     {
       company: 'gt-grad',
+      logoWidth: 130,
+      logoHeight: 80,
+      companylogo: require('../assets/img/gt_logo.png'),
       role: 'Graduate Teaching Assistant (CS 3451: Introduction to Computer Graphics',
       date: 'May 2017 – May 2018',
     },
     {
       company: 'gt-research',
+      logoWidth: 130,
+      logoHeight: 80,
+      companylogo: require('../assets/img/gt_logo.png'),
       role: 'Undergraduate Research Assistant (Clowdr in VR)',
       date: 'May 2017 – May 2018',
     },
     {
       company: 'gt-undergrad2',
+      logoWidth: 130,
+      logoHeight: 80,
+      companylogo: require('../assets/img/gt_logo.png'),
       role: 'Undergraduate Teaching Assistant (CS4803: 3D User Interface Design in VR)',
       date: 'May 2017 – May 2018',
     },
     {
       company: 'gt-undergrad1',
+      logoWidth: 130,
+      logoHeight: 80,
+      companylogo: require('../assets/img/gt_logo.png'),
       role: 'Undergraduate Teaching Assistant (CS 1331: Intro to Object Oriented Programming)',
       date: 'May 2017 – May 2018',
     },
