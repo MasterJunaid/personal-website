@@ -54,7 +54,7 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  gitHubUsername: "ryanm14", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
 };
@@ -91,8 +91,8 @@ const skills = {
     { name: "Python", value: 90 },
     { name: "SQL", value: 75 },
     { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
+    { name: "Java", value: 65 },
+    { name: "Kotlin", value: 90 },
     { name: "React", value: 65 },
     { name: "HTML/CSS", value: 55 },
     { name: "C#", value: 80 },
@@ -110,15 +110,33 @@ const skills = {
 };
 
 const experiences = {
-  show: false,
-  heading: "Experiences",
+  show: true,
+  heading: "Work Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
+      company: 'bluefletch',
+      // companylogo: '../static/media/me.e73fee66.jpg',
+      role: 'Intern Android Developer at BlueFletch',// Here Add Company Name
       date: 'June 2018 – Present',
     },
     {
-      role: 'Front-End Developer',
+      company: 'gt-grad',
+      role: 'Graduate Teaching Assistant (CS 3451: Introduction to Computer Graphics',
+      date: 'May 2017 – May 2018',
+    },
+    {
+      company: 'gt-research',
+      role: 'Undergraduate Research Assistant (Clowdr in VR)',
+      date: 'May 2017 – May 2018',
+    },
+    {
+      company: 'gt-undergrad2',
+      role: 'Undergraduate Teaching Assistant (CS4803: 3D User Interface Design in VR)',
+      date: 'May 2017 – May 2018',
+    },
+    {
+      company: 'gt-undergrad1',
+      role: 'Undergraduate Teaching Assistant (CS 1331: Intro to Object Oriented Programming)',
       date: 'May 2017 – May 2018',
     },
   ]
@@ -129,8 +147,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for full-time Software Engineering or Android Development opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "ryan.r.miles (at) gmail.com",
 };
 
 
