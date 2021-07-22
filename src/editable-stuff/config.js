@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Ryan",
   middleName: "",
   lastName: "Miles",
-  message: " Android Developer | Video Editor",
+  message: "Android Developer | CS @ Georgia Tech",
   icons: [
     {
       image: "fa-github",
@@ -42,7 +42,7 @@ const about = {
   imageLink: require("../assets/img/me.jpg"),
   imageSize: 300,
   message:
-    "My name is Ryan Miles. I’m a current Computer Science graduate student at Georgia Institute of Technology. Through software engineering I want to be able to make people's lives better. I also love to help others grow on their software engineering journey.",
+    "My name is Ryan Miles. I’m a current Computer Science graduate student at Georgia Institute of Technology. As an Android Developer, my passion is to create mobile apps that people love to use. As a passionate developer, I aim to mentor the next generation of developers by furthering my skills.",
   resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 };
 
@@ -88,7 +88,7 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
+    { name: "Python", value: 90, loc: ">10k" },
     { name: "SQL", value: 75 },
     { name: "Data Structures", value: 85 },
     { name: "Java", value: 65 },
@@ -156,6 +156,58 @@ const experiences = {
     },
   ]
 }
+const UnfolditProject = {
+  name: "Unfoldit",
+  description: ['Creation of Unfoldit Android, a mobile app to test and enhance your spatial awareness abilities', 'Developed a production ready Android game around spatial awareness with Kotlin, modern libraries, and tests',
+ 'Finalists for Georgia Tech 2019 Inventure Prize with 1000+ Downloads and 100+ five-star reviews'],
+  playstore_link: "https://play.google.com/store/apps/details?id=com.unfoldit.unfoldit&hl=en_US&gl=US",
+  image: require('../assets/img/unfoldit.jpg'),
+  link: "https://www.unfolditapp.com/",
+  codeLink: null,
+  languages: [{name: "Kotlin", percent: "100%"}, {name: "Dagger"}, {name: 'Firebase Analytics'}, {name: 'Single Activity'}, {name: 'MVVM Architecture'}],
+  date: "Aug 2018 - July 2020",
+};
+
+const NameChat = {
+  name: "NameChat",
+  description: ['Creation of Name Chat Android, a network to find & chat with all the people in the world with your name',
+  'Implemented a Firestore backend with caching reducing calls by 70% and used Live Data to update the UI'],
+  playstore_link: null,
+  image: require('../assets/img/namechat.jpg'),
+  link: null,
+  codeLink: null,
+  languages: [{name: "Kotlin", percent: "100%"}, {name: 'Firestore'}, {name: 'Firebase Auth'}, {name: 'LiveData'}, {name: 'Navigation Component'}],
+  date: "Aug 2020 - Dec 2020",
+};
+
+const SpaceTrader = {
+  name: "SpaceTrader",
+  description: ['Collaborated on Space Trader Android, a retro complex strategy game, redesigned for Android',
+    'item Programmed the Market Activity to calculate \& show buy/sell prices from player\'s inventory and skill level' +
+    'item Designed backend Room database with serialization for saving \& restoring player state'],
+  playstore_link: null,
+  image: require('../assets/img/spacetrader.jpg'),
+  link: null,
+  codeLink: "https://github.com/Ryanm14/CS2340-SpaceTrader",
+  languages: [{name: "Java", percent: "98%"}, {name: "Kotlin", percent: "2%"}, {name: 'Room'}, {name: 'UML'}, {name: 'JUnit'}, {name: 'GSON'}, {name: 'RecyclerView'}, {name: 'Travis.ci'}],
+  date: "Jan 2019 - May 2019",
+};
+
+
+const androidProjects = [UnfolditProject, NameChat, SpaceTrader]
+
+const webProjects = []
+
+const graphicsProjects = []
+
+const aiProjects = []
+
+const projects = {
+  androidProjects: androidProjects,
+  webProjects: webProjects,
+  graphicsProjects: graphicsProjects,
+  aiProjects: aiProjects
+}
 
 // GET IN TOUCH SECTION
 const getInTouch = {
@@ -163,14 +215,9 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "I'm currently looking for full-time Software Engineering or Android Development opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "ryan.r.miles (at) gmail.com",
+  email: "ryan.r.miles(at)gmail.com",
 };
 
 
 
-// Blog SECTION
-// const blog = {
-//   show: false,
-// };
-
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, projects };

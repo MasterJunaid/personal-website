@@ -26,13 +26,13 @@ function Skills({ heading, hardSkills, softSkills }) {
         </h2>
         <Tabs
           className="skills-tabs"
-          defaultActiveKey="hard-skills"
+          defaultActiveKey="programming-skills"
           id="skills-tabs"
         >
           <Tab
             tabClassName="skills-tab lead"
-            eventKey="hard-skills"
-            title="Technical Skills"
+            eventKey="programming-skills"
+            title="Programming Languages"
           >
             <Row className="pt-3 px-1">
               <SkillsTab skills={hardSkills} isScrolled={isScrolled} />
@@ -40,8 +40,18 @@ function Skills({ heading, hardSkills, softSkills }) {
           </Tab>
           <Tab
             tabClassName="skills-tab lead"
-            eventKey="soft-skills"
-            title="Soft Skills"
+            eventKey="android-lib-skills"
+            title="Android Libraries"
+          >
+            <Row className="pt-3 px-1">
+              <SkillsTab skills={softSkills} isScrolled={isScrolled} />
+            </Row>
+          </Tab>
+
+          <Tab
+            tabClassName="skills-tab lead"
+            eventKey="concepts-skills"
+            title="Concepts"
           >
             <Row className="pt-3 px-1">
               <SkillsTab skills={softSkills} isScrolled={isScrolled} />
