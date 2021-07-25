@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 
 const MainBody = React.forwardRef(
-  ({ gradient, title, message, icons, showGoals }, ref) => {
+  ({ gradient, title, message, icons, resume, showGoals }, ref) => {
     return (
       <Jumbotron
         fluid
@@ -57,7 +57,8 @@ const MainBody = React.forwardRef(
           <a
             className="btn btn-outline-light btn-lg "
             style={{marginLeft: '16px'}}
-            href="#aboutme"
+            href={resume}
+            target='_blank'
             role="button"
             aria-label="View my resume"
           >

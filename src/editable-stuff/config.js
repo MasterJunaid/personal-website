@@ -43,7 +43,7 @@ const about = {
   imageSize: 300,
   message:
     "My name is Ryan Miles. I’m a current Computer Science graduate student at Georgia Institute of Technology. As an Android Developer, my passion is to create mobile apps that people love to use. As a passionate developer, I aim to mentor the next generation of developers by furthering my skills.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+  resume: require("../assets/Ryan Miles - Resume.pdf"),
 };
 
 // PROJECTS SECTION

@@ -39,6 +39,7 @@ const Home = React.forwardRef((props, ref) => {
         message={mainBody.message}
         icons={mainBody.icons}
         ref={ref}
+        resume={about.resume}
         showGoals={showGoals}
       />
 
