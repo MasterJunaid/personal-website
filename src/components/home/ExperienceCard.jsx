@@ -15,7 +15,7 @@ const ExperienceCard = ({data}) => {
                     {data.date}
                 </p>
               <p>
-                {/*{data.description}*/}
+                {data.description}
               </p>
             </div>
         </Col>

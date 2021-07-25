@@ -74,6 +74,18 @@ const Project = ({projects}) => {
             ))}
           </Row>
           </Tab>
+          <Tab eventKey="other" title="Other Projects">
+            <h2 className="display-4 pb-5 text-center">Other Projects</h2>
+            <Row>
+              {projects.otherProjects.map((project, index) => (
+                <ProjectCard
+                  key={`project-card-${index}`}
+                  id={`project-card-${index}`}
+                  value={project}
+                />
+              ))}
+            </Row>
+          </Tab>
         </Tabs>
       </Container>
     </Jumbotron>

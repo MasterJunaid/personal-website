@@ -59,7 +59,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
                   role="button"
                   aria-label="Resume/CV"
                 >
-                  Resumé
+                  Résumé
                 </a>
 
                 <a
@@ -67,6 +67,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
                   style={{marginLeft: '16px'}}
                   href="impossible.html"
                   role="button"
+                  target='_blank'
                   aria-label="impossible list"
                 >
                   Impossible List

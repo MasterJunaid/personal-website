@@ -19,7 +19,7 @@ const MainBody = React.forwardRef(
 
             <img
                 className="border border-secondary rounded-circle"
-                src={require("../../assets/img/me.jpg")}
+                src={require("../../assets/img/general/me.jpg")}
                 alt="profilepicture"
                 width={150}
                 height={150}
@@ -61,7 +61,7 @@ const MainBody = React.forwardRef(
             role="button"
             aria-label="View my resume"
           >
-            Resumé
+            Résumé
           </a>
         </Container>
       </Jumbotron>
