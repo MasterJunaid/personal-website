@@ -83,32 +83,6 @@ const leadership = {
   // }
 };
 
-// SKILLS SECTION
-const skills = {
-  show: true,
-  heading: "Skills",
-  hardSkills: [
-    { name: "Python", value: 90, loc: ">10k" },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "Java", value: 65 },
-    { name: "Kotlin", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
-  ],
-  softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
-  ],
-};
-
 const experiences = {
   show: true,
   heading: "Work Experiences",
@@ -145,6 +119,16 @@ const experiences = {
       role: 'Undergraduate Research Assistant (Clowdr in VR)',
       date: 'Jan 2021 – Aug 2021',
     },
+    {
+    company: 'cisco',
+  logoWidth: 130,
+  logoHeight: 80,
+  description: '· Spearheaded integrating VR in a React conferencing platform using Babylon.js and WebXR with the AEL Lab\n' +
+'· Deployed the project to an EC2 instance with backend PostgreSQL, NGINX web server, and Typescript codebase',
+  companylogo: require('../assets/img/companies/gt_logo.png'),
+  role: 'Intern Coordinator',
+  date: 'Jan 2021 – Aug 2021',
+},
   ]
 }
 const UnfolditProject = {
@@ -348,6 +332,49 @@ const projects = {
   aiProjects: aiProjects,
   otherProjects: otherProjects
 }
+
+// SKILLS SECTION
+const skills = {
+  show: true,
+  heading: "Skills",
+  programmingLanguages: [
+    { name: "Java", value: 90, loc: ">10k" },
+    { name: "Python", value: 75 },
+    { name: "Kotlin", value: 85 },
+    { name: "LaTex", value: 65 },
+    { name: "Typescript", value: 90 },
+    { name: "SQL", value: 65 },
+    { name: "React", value: 55 },
+    { name: "C#", value: 80 },
+    { name: "C", value: 80 },
+  ],
+  androidLibraries: [
+    { name: "LiveData" },
+    { name: "Navigation Component" },
+    { name: "Timber" },
+    { name: "Firestore" },
+    { name: "Firebase Analytics" },
+    { name: "Dagger" },
+    { name: "OkHTTP" },
+    { name: "Retrofit" },
+    { name: "Picasso" },
+    { name: "Fresco" },
+    { name: "EventBus" },
+  ],
+  coursework: [
+    { name: "Data Structures \& Algorithms",},
+    { name: "Database Design"},
+    { name: "Computer Graphics"},
+    { name: "Game AI"},
+    { name: "Computer Animation" },
+  ],
+  concepts: [
+    { name: "Test Driven Development" },
+    { name: "Clean Code" },
+    { name: "Git Workflow"},
+    { name: "Agile/Jira Workflow"}
+  ],
+};
 
 // GET IN TOUCH SECTION
 const getInTouch = {
