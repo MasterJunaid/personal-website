@@ -90,44 +90,44 @@ const experiences = {
     {
       company: 'bluefletch',
       companylogo: require('../assets/img/companies/bf_logo.png'),
-      logoWidth: 100,
-      logoHeight: 100,
+      logoWidth: 300,
+      logoHeight: 65,
       role: 'Intern Android Developer at BlueFletch',// Here Add Company Name
       date: 'June 2018 – Present',
-      description: '· Developed an AOSP platform service to run system level commands on Manufacturer signed devices\n' +
-        '· Programmed an AES encrypted IPC channel with for secure data transfer between multiple apps through AIDL · Designed a customizable & secure Android replacement notification drawer to allow/deny specific notifications ' +
-        '· Developed an Android for Work platform in Java that increased supported devices by 1500%\n' +
-        '· Increased Android projects code coverage from 0% to 70% using Espresso, JUnit, Mockito, and Robolectric\n' +
-        '· Implemented a unified theming library in Java to save 6-7 development hours per demo request'
+      description: ['Developed an AOSP platform service to run system level commands on Manufacturer signed devices',
+        'Programmed an AES encrypted IPC channel with for secure data transfer between multiple apps through AIDL · Designed a customizable & secure Android replacement notification drawer to allow/deny specific notifications ',
+        'Developed an Android for Work platform in Java that increased supported devices by 1500%',
+        'Increased Android projects code coverage from 0% to 70% using Espresso, JUnit, Mockito, and Robolectric',
+        'Implemented a unified theming library in Java to save 6-7 development hours per demo request']
     },
     {
       company: 'gt-ta',
       logoWidth: 130,
       logoHeight: 80,
       companylogo: require('../assets/img/companies/gt_logo.png'),
-      description: 'TA for CS 3451 - Introduction to Computer Graphics, CS4803: 3D User Interface Design in VR, CS 1331: Intro to Object Oriented Programming',
-      role: 'Teaching Assistant',
+      description: ['TA for CS 3451: Introduction to Computer Graphics', 'CS 4803: 3D User Interface Design in VR', 'CS 1331: Intro to Object Oriented Programming', 'Taught a 1½ hour weekly recitation, graded tests and homework, and helped create assignments'],
+      role: 'Teaching Assistant at Georgia Tech',
       date: 'Jan 2019 – Present',
     },
     {
       company: 'gt-research',
       logoWidth: 130,
       logoHeight: 80,
-      description: '· Spearheaded integrating VR in a React conferencing platform using Babylon.js and WebXR with the AEL Lab\n' +
-        '· Deployed the project to an EC2 instance with backend PostgreSQL, NGINX web server, and Typescript codebase',
+      description: ['Spearheaded integrating VR in a React conferencing platform using Babylon.js and WebXR with the AEL Lab',
+        'Deployed the project to an EC2 instance with backend PostgreSQL, NGINX web server, and Typescript codebase'],
       companylogo: require('../assets/img/companies/gt_logo.png'),
-      role: 'Undergraduate Research Assistant (Clowdr in VR)',
+      role: 'Undergraduate Research Assistant at Georgia Tech',
       date: 'Jan 2021 – Aug 2021',
     },
     {
     company: 'cisco',
-  logoWidth: 130,
+  logoWidth: 150,
   logoHeight: 80,
-  description: '· Spearheaded integrating VR in a React conferencing platform using Babylon.js and WebXR with the AEL Lab\n' +
-'· Deployed the project to an EC2 instance with backend PostgreSQL, NGINX web server, and Typescript codebase',
-  companylogo: require('../assets/img/companies/gt_logo.png'),
-  role: 'Intern Coordinator',
-  date: 'Jan 2021 – Aug 2021',
+  description: ['Coordinated daily operations during the Cisco High STEAM Externship Program',
+'Compiled Survey Monkey feedback and presented the findings to supervisors and program sponsors'],
+  companylogo: require('../assets/img/companies/cisco.png'),
+  role: 'Intern Coordinator at Cisco Systems',
+  date: 'May 2016 – July 2017',
 },
   ]
 }

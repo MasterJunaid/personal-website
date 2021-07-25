@@ -8,14 +8,16 @@ const ExperienceCard = ({data}) => {
     return ( 
         <Col lg="12">
             <div className="pb-5 text-center">
-                <img className="" src={data.companylogo} width={data.logoWidth} height={data.logoHeight} alt=""/>
+                <img style={{marginBottom: '5px'}} src={data.companylogo} width={data.logoWidth} height={data.logoHeight} alt=""/>
+                <p></p>
                 <p className="lead">
                   <b>{data.role}</b>
                     <br/>
                     {data.date}
                 </p>
               <p>
-                {data.description}
+                {data.description.map((item) => <p>• {item}</p>)
+                }
               </p>
             </div>
         </Col>

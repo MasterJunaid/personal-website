@@ -23,7 +23,7 @@ const ProjectCard = ({ value }) => {
         <Card.Body>
           <Card.Title as="h2">{name} </Card.Title>
           <Card.Text >
-            {description.map((item) => <p>{item}</p>)
+            {description.map((item) => <p>• {item}</p>)
             }
           </Card.Text>
           <hr />
