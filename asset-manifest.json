@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.80637812.chunk.css",
-    "main.js": "/static/js/main.a177356a.chunk.js",
-    "main.js.map": "/static/js/main.a177356a.chunk.js.map",
+    "main.js": "/static/js/main.a96bf0e6.chunk.js",
+    "main.js.map": "/static/js/main.a96bf0e6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.554504a0.js",
     "runtime-main.js.map": "/static/js/runtime-main.554504a0.js.map",
-    "static/js/2.989bbcfb.chunk.js": "/static/js/2.989bbcfb.chunk.js",
-    "static/js/2.989bbcfb.chunk.js.map": "/static/js/2.989bbcfb.chunk.js.map",
+    "static/js/2.db408fd4.chunk.js": "/static/js/2.db408fd4.chunk.js",
+    "static/js/2.db408fd4.chunk.js.map": "/static/js/2.db408fd4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.37217725356586ad2825475094f221d6.js": "/precache-manifest.37217725356586ad2825475094f221d6.js",
+    "precache-manifest.9559464db4bc826d667bf7ef2b48587c.js": "/precache-manifest.9559464db4bc826d667bf7ef2b48587c.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.80637812.chunk.css.map": "/static/css/main.80637812.chunk.css.map",
-    "static/js/2.989bbcfb.chunk.js.LICENSE.txt": "/static/js/2.989bbcfb.chunk.js.LICENSE.txt",
+    "static/js/2.db408fd4.chunk.js.LICENSE.txt": "/static/js/2.db408fd4.chunk.js.LICENSE.txt",
     "static/media/Ryan Miles - Resume.pdf": "/static/media/Ryan Miles - Resume.962aac13.pdf",
     "static/media/Shake Menu in VR - Research Paper.pdf": "/static/media/Shake Menu in VR - Research Paper.95d651ae.pdf",
     "static/media/aidl.jpg": "/static/media/aidl.00854b6c.jpg",
@@ -39,8 +39,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.554504a0.js",
-    "static/js/2.989bbcfb.chunk.js",
+    "static/js/2.db408fd4.chunk.js",
     "static/css/main.80637812.chunk.css",
-    "static/js/main.a177356a.chunk.js"
+    "static/js/main.a96bf0e6.chunk.js"
   ]
 }
