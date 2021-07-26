@@ -42,7 +42,7 @@ const about = {
   imageLink: require("../assets/img/general/me.jpg"),
   imageSize: 300,
   message:
-    "My name is Ryan Miles. I’m a current Computer Science graduate student at Georgia Institute of Technology. As an Android Developer, my passion is to create mobile apps that people love to use. As a passionate developer, I aim to mentor the next generation of developers by furthering my skills.",
+    "My name is Ryan Miles. I’m a current Computer Science graduate student at Georgia Institute of Technology. As an Android Developer, my goal is to create mobile apps that people love to use. As a passionate developer, my mission is to further develop my skills to mentor the next generation of developers.",
   resume: require("../assets/Ryan Miles - Resume.pdf"),
 };
 
@@ -92,13 +92,16 @@ const experiences = {
       companylogo: require('../assets/img/companies/bf_logo.png'),
       logoWidth: 300,
       logoHeight: 65,
-      role: 'Intern Android Developer at BlueFletch',// Here Add Company Name
+      role: 'Intern Android Developer at BlueFletch Mobile',// Here Add Company Name
       date: 'June 2018 – Present',
-      description: ['Developed an AOSP platform service to run system level commands on Manufacturer signed devices',
-        'Programmed an AES encrypted IPC channel with for secure data transfer between multiple apps through AIDL · Designed a customizable & secure Android replacement notification drawer to allow/deny specific notifications ',
-        'Developed an Android for Work platform in Java that increased supported devices by 1500%',
-        'Increased Android projects code coverage from 0% to 70% using Espresso, JUnit, Mockito, and Robolectric',
-        'Implemented a unified theming library in Java to save 6-7 development hours per demo request']
+      description: ['After my three years of working at BlueFletch, I have had the opportunity to work on real products and get experience working professionally. My years of work focused on BlueFletch\'s Android Applications.',
+      ' Every semester I have a different focus for features or patches to be developed. Most recently I worked on developing an AOSP platform service to run system level commands on manufacturer signed devices.' +
+      'The mobile suite of apps BlueFletch deploys requires system level permissions to be able to reset the phone or grant app\'s permissions. This was one of my harder challenges because I had to dive into the AOSP source code and use reflection to access some of the services.', 'Another project I worked on was developing a secure communication channel for BlueFletch\'s apps to be able to communicate over.' +
+        'The channel needed to be synchronous and encrypted, so it was implemented with AES encryption and used an AIDL interface. This process was more niche since most companies only deploy one main application, but was a fun problem to solve.',
+        'Another project I was tasked with was about fixing a backdoor into the Android settings screen. Clients noticed that the notification drawer allowed user\'s to click on notifications and escape into the settings screen and being able to wipe the device. Therefore I designed and implemented a replace for the Android notification drawer that has a custom config file to allow/deny specific applications from sending notifications. The best part was working with designers to make sure the replace drawer was intuitive and not cluttered.',
+      'During my first summer I worked on around developing another platform for Android for Work. This platform allowed Bluefletch’s Enterprise Mobility Services to communicate with non-rugged devices if a company already had a supply of Android devices. I was able to get first-hand experience in proper application architecture and using background services.',
+      'I also was given a task to theme BlueFletch’s sample retail applications for a client meeting. I noticed the process of theming 5-6 apps for every meeting is very tedious and costs upwards of 5-7 hours to complete. After the task was complete, I finished writing a library to instantly update the theme on runtime for Android applications. Instead of building 5-6 apps for each company, there is now one set of demo apps that has a customizable color scheme and logo support. During a demo, developers and managers can quickly and easily change colors and logos to showcase the customization of our products while saving 5-7 hours of development per requested demo. This process taught me how to inject theme data during an Android app’s onResume statically. At the end of the project, I used Confluence to write documentation for how to use the new demo set apps for internal reference.',
+      'In between large projects I worked on bug fixes and small feature implementations. I also attended weekly code reviews and received feedback on my pull requests about how to improve the function and style of my code from the senior developers. ']
     },
     {
       company: 'gt-ta',
@@ -341,7 +344,7 @@ const skills = {
     { name: "Java", value: 90, loc: ">10k" },
     { name: "Python", value: 75 },
     { name: "Kotlin", value: 85 },
-    { name: "LaTex", value: 65 },
+    { name: "LaTeX", value: 65 },
     { name: "Typescript", value: 90 },
     { name: "SQL", value: 65 },
     { name: "React", value: 55 },

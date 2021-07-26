@@ -1,3 +1,6 @@
+/*
+Code from: https://github.com/anaashrafi/home/blob/master/src/components/home/Interests.jsx
+ */
 import React from "react";
 // import Col from 'react-bootstrap/Col'
 // import Row from 'react-bootstrap/Row'
@@ -27,38 +30,37 @@ const Interests = () => {
 
             <div className="row" style={divStyle}>
               <div className="col text-center" >
-                <p className="lead text-center" style={{fontSize:'28px'}}>Meditation</p>
-                <img src="https://img.icons8.com/nolan/128/light.png"/>
+                <p className="lead text-center" style={{fontSize:'28px'}}>Running</p>
+                <img src="https://img.icons8.com/nolan/128/running.png"/>
                 <p className="lead text-center">
-                  Every morning, I begin my day with <a href="https://www.headspace.com/" target="_blank">Headspace</a>.
-                  I started meditating about one year ago and have learned how to be more focused, mindful, and relaxed.
-                  So far, I've meditated for a total of 1,385 minutes, and I am continuing to grow this number every day!
+                  One of my favorite parts of the day is going for a summer run. It helps break up my work day and allows me to listen
+                  to an interesting podcast or just think while exploring Atlanta!
+                  Currently trying to build back up to a 10k!
                 </p>
               </div>
               <div className="col text-center">
                 <p className="lead text-center" style={{fontSize:'28px'}}>Reading</p>
                 <img src="https://img.icons8.com/nolan/128/saving-book.png"/>
                 <p className="lead text-center">
-                  I had never been much of a reader until this year. When quarantine started, I thought it'd be a
-                  great opportunity to get into reading and find books I really enjoy. I've read 7 books
-                  since March and can't wait to read more. Check out what I've been reading on <a href="https://www.goodreads.com/ana_ashrafi" target="_blank">Goodreads</a>!
+                  I am an avid learner and my favorite medium to learn is through written text. My favorite books are nonfiction books about technology, health research, and biographies.
+                  Check out what I've been reading on <a href="https://www.goodreads.com/user/show/62971015-ryan-miles" target="_blank">Goodreads</a>!
                 </p>
               </div>
               <div className="col text-center">
-                <p className="lead text-center" style={{fontSize:'28px'}}>Soccer</p>
-                <img src="https://img.icons8.com/nolan/128/football2.png"/>
+                <p className="lead text-center" style={{fontSize:'28px'}}>Video Production</p>
+                <img src="https://img.icons8.com/nolan/128/video.png"/>
                 <p className="lead text-center">
-                  I first picked up a soccer ball when I was 4 years old and have played the beautiful game since.
-                  I played competitively for FC Dallas, while also playing for my high school soccer team. In college, I play intramural soccer
-                  and frequently look for pick-up games to play!
+                  For a fun creative hobby, I love to make videos! I enjoy the technical aspect of getting a great shot
+                  and making the video exciting. Currently I use DaVinci Resolve, but used Adobe Premiere in the past.
+                  Checkout some of my vlogs and advice videos on <a href='https://www.youtube.com/channel/UCd-L5vUAWxnNArskdBkKM6A' target='_blank'>YouTube</a>!
                 </p>
               </div>
               <div className="col text-center">
-                <p className="lead text-center" style={{fontSize:'28px'}}>Food</p>
-                <img src="https://img.icons8.com/nolan/128/meal.png"/>
+                <p className="lead text-center" style={{fontSize:'28px'}}>Cooking</p>
+                <img src="https://img.icons8.com/nolan/128/kitchenwares.png"/>
                 <p className="lead text-center">
-                  I am a big foodie! Growing up with a mom who cooks the best Persian food, I fell in love with food at an early age. I'm currently working on a cookbook of all my mom's
-                  original recipes and am learning more about cooking too. I love trying new restaurants and recipes!
+                  Ever since I was young I loved watching the food network channel and now love to practice what I have watched throughout those years.
+                  My current recipe I am trying to master is a perfect smash burger with homemade buns. After I plan to explore all types of cuisines from around the world.
                 </p>
               </div>
             </div>

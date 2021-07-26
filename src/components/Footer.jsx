@@ -23,6 +23,10 @@ const Footer = (props) => {
             Project code is open source. Feel free to fork and make your own
             version (Forked from <a href="https://github.com/hashirshoaeb/home">hashirshoaeb</a>).
           </small>
+          <br/>
+          <small className="text-muted">
+            Interest icons from: <a href='https://icons8.com'>icons8.com.</a>
+          </small>
         </p>
       </Container>
     </footer>

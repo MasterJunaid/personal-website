@@ -72,6 +72,8 @@ const Home = React.forwardRef((props, ref) => {
         skills={skills}
       />
 
+      <Interests/>
+
     </>
   );
 });
