@@ -23,7 +23,7 @@ import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
 
 import Experience from "./components/home/Experience";
-import Interests from "./components/home/Interests";
+import Hobbies from "./components/home/Hobbies";
 
 const Home = React.forwardRef((props, ref) => {
   const [openGoals, setOpenGoals] = React.useState(false);
@@ -72,7 +72,7 @@ const Home = React.forwardRef((props, ref) => {
         skills={skills}
       />
 
-      <Interests/>
+      <Hobbies/>
 
     </>
   );

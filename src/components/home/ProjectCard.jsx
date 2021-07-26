@@ -12,7 +12,9 @@ const ProjectCard = ({ value }) => {
     playstore_link,
     image,
     link,
+    linkTitle,
     codeLink,
+    codeLinkTitle,
     languages,
     date
   } = value;
@@ -36,9 +38,9 @@ const ProjectCard = ({ value }) => {
         </Card.Body>
         {playstore_link? <Button href={playstore_link} target="_blank" variant="success">Google Play Store</Button> : <></> }
         {playstore_link? <br/> : <></>}
-        {link? <Button href={link} target="_blank" variant="primary">View Project</Button> : <></> }
+        {link? <Button href={link} target="_blank" variant="primary">{linkTitle? linkTitle : 'View Project'}</Button> : <></> }
         {codeLink? <br/> : <></>}
-        {codeLink? (<Button href={codeLink} target="_blank" variant="outline-dark">View Code</Button>) : <></>}
+        {codeLink? (<Button href={codeLink} target="_blank" variant="outline-dark">{codeLinkTitle? codeLinkTitle : 'View Code'}</Button>) : <></>}
       </Card>
     </Col>
   );
