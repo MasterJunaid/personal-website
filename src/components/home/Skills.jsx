@@ -1,7 +1,7 @@
 import React from "react";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
-import SkillsTab from "./SkillsTab";
+import {SkillsTab, ProgrammingSkillsTab} from "./SkillsTab";
 import Row from "react-bootstrap/Row";
 import { Jumbotron, Container } from "react-bootstrap";
 import { useScrollPosition } from "../../hooks/useScrollPosition";
@@ -35,7 +35,7 @@ function Skills({ heading, skills }) {
             title="Programming Languages"
           >
             <Row className="pt-3 px-1">
-              <SkillsTab skills={skills.programmingLanguages} isScrolled={isScrolled} />
+              <ProgrammingSkillsTab skills={skills.programmingLanguages} isScrolled={isScrolled} />
             </Row>
           </Tab>
           <Tab

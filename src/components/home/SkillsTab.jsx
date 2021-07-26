@@ -32,4 +32,25 @@ function SkillsTab({ skills, isScrolled }) {
   );
 }
 
-export default SkillsTab;
+function ProgrammingSkillsTab({ skills, isScrolled }) {
+  return (
+    <>
+      <Col xs={12} md={6}>
+        <h4>Proficient In:</h4>
+        <SkillsSection
+          skills={skills.proficient}
+          isScrolled={isScrolled}
+        />
+      </Col>
+      <Col xs={12} md={6}>
+       <h4>Experience With:</h4>
+        <SkillsSection
+          skills={skills.exposedTo}
+          isScrolled={isScrolled}
+        />
+      </Col>
+    </>
+  );
+}
+
+export {SkillsTab, ProgrammingSkillsTab};

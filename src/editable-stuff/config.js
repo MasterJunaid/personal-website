@@ -100,7 +100,7 @@ const experiences = {
         'The channel needed to be synchronous and encrypted, so it was implemented with AES encryption and used an AIDL interface. This process was more niche since most companies only deploy one main application, but was a fun problem to solve.',
         'Another project I was tasked with was about fixing a backdoor into the Android settings screen. Clients noticed that the notification drawer allowed user\'s to click on notifications and escape into the settings screen and being able to wipe the device. Therefore I designed and implemented a replace for the Android notification drawer that has a custom config file to allow/deny specific applications from sending notifications. The best part was working with designers to make sure the replace drawer was intuitive and not cluttered.',
         'During my first summer I worked on around developing another platform for Android for Work. This platform allowed Bluefletch\'s Enterprise Mobility Services to communicate with non-rugged devices if a company already had a supply of Android devices. I was able to get first-hand experience in proper application architecture and using background services.',
-        'I also was given a task to theme BlueFletch’s sample retail applications for a client meeting. I noticed the process of theming 5-6 apps for every meeting is very tedious and costs upwards of 5-7 hours to complete. After the task was complete, I finished writing a library to instantly update the theme on runtime for Android applications. Instead of building 5-6 apps for each company, there is now one set of demo apps that has a customizable color scheme and logo support. During a demo, developers and managers can quickly and easily change colors and logos to showcase the customization of our products while saving 5-7 hours of development per requested demo. This process taught me how to inject theme data during an Android app’s onResume statically. At the end of the project, I used Confluence to write documentation for how to use the new demo set apps for internal reference.',
+        'I also was given a task to theme BlueFletch’s sample retail applications for a client meeting. I noticed the process of theming 5-6 apps for every meeting is very tedious and costs upwards of 5-7 hours to complete. To save hours for each demo request, I wrote a library to instantly update the theme on runtime for BlueFletch\'s Android applications. During a demo, developers and managers can also quickly and easily change colors and logos to showcase the customization of BlueFletch\'s product. This process taught me how to inject theme data during an Android app’s onResume statically. At the end of the project, I used Confluence to write documentation for how to use the new demo set apps for internal reference.',
         'In between large projects I worked on bug fixes, small feature implementations, and wrote documentation. I also attended weekly code reviews and received feedback on my pull requests about how to improve the function and style of my code from the senior developers. ']
     },
     {
@@ -409,17 +409,20 @@ const projects = {
 const skills = {
   show: true,
   heading: "Skills",
-  programmingLanguages: [
-    {name: "Java", value: 90, loc: ">10k"},
-    {name: "Python", value: 75},
-    {name: "Kotlin", value: 85},
-    {name: "LaTeX", value: 65},
-    {name: "Typescript", value: 90},
-    {name: "SQL", value: 65},
-    {name: "React", value: 55},
-    {name: "C#", value: 80},
-    {name: "C", value: 80},
-  ],
+  programmingLanguages: {
+      proficient: [
+        {name: "Java", value: 90, loc: ">10k"},
+        {name: "Python", value: 75},
+        {name: "Kotlin", value: 85}
+      ],
+    exposedTo: [
+      {name: "LaTeX", value: 65},
+      {name: "Typescript", value: 90},
+      {name: "SQL", value: 65},
+      {name: "React", value: 55},
+      {name: "C#", value: 80},
+      {name: "C", value: 80},
+    ]},
   androidLibraries: [
     {name: "LiveData"},
     {name: "Navigation Component"},

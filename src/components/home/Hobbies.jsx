@@ -38,7 +38,7 @@ const Hobbies = () => {
                 <img src="https://img.icons8.com/nolan/128/video.png"/>
                 <p className="lead text-center">
                   For a fun creative hobby, I love to make videos! I enjoy the technical aspect of getting a great shot
-                  and making the video exciting. Currently I use DaVinci Resolve, but used Adobe Premiere in the past.
+                  and making the video exciting. Currently I use DaVinci Resolve, but have used Adobe Premiere in the past.
                   Checkout some of my vlogs and advice videos on <a href='https://www.youtube.com/channel/UCd-L5vUAWxnNArskdBkKM6A' target='_blank'>YouTube</a>!
                 </p>
               </div>
@@ -47,7 +47,7 @@ const Hobbies = () => {
                 <img src="https://img.icons8.com/nolan/128/kitchenwares.png"/>
                 <p className="lead text-center">
                   Ever since I was young I loved watching the food network channel and now love to practice what I have watched throughout those years.
-                  My current recipe I am trying to master is a perfect smash burger with homemade buns. After I plan to explore all types of cuisines from around the world.
+                  The current recipe I am trying to master is a perfect smash burger with homemade buns. After mastering the smash burger, I plan to explore all types of cuisines from around the world.
                 </p>
               </div>
             </div>
