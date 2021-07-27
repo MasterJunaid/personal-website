@@ -85,7 +85,7 @@ const leadership = {
 
 const experiences = {
   show: true,
-  heading: "Work Experiences",
+  heading: "Work Experience",
   data: [
     {
       company: 'bluefletch',
@@ -94,12 +94,12 @@ const experiences = {
       logoHeight: 65,
       role: 'Intern Android Developer at BlueFletch Mobile',// Here Add Company Name
       date: 'June 2018 – Present',
-      description: ['After my three years of working at BlueFletch, I have had the opportunity to work on real products and get experience working professionally. My years of work focused on BlueFletch\'s Android Applications.',
-        ' Every semester I have a different focus for features or patches to be developed. Most recently I worked on developing an AOSP platform service to run system level commands on manufacturer signed devices.' +
-        'The mobile suite of apps BlueFletch deploys requires system level permissions to be able to reset the phone or grant app\'s permissions. This was one of my harder challenges because I had to dive into the AOSP source code and use reflection to access some of the services.', 'Another project I worked on was developing a secure communication channel for BlueFletch\'s apps to be able to communicate over.' +
+      description: ['After my three years of working at BlueFletch, I have had the opportunity to work on real products and get experience working professionally as an Android developer.',
+        ' Every semester I have had a different focus of features \& patches to work on. Recently, my latest project was developing an AOSP platform service to run system level commands on manufacturer signed devices. ' +
+        ' This feature was required since BlueFletch\'s apps require system level permissions to be able to reset the phone or grant app\'s permissions. This was one of my harder challenges because I had to dive into the AOSP source code and use Java\'s reflection to access some of the methods and services.', 'Another project I worked on was developing a secure communication channel for BlueFletch\'s apps to communicate through. ' +
         'The channel needed to be synchronous and encrypted, so it was implemented with AES encryption and used an AIDL interface. This process was more niche since most companies only deploy one main application, but was a fun problem to solve.',
-        'Another project I was tasked with was about fixing a backdoor into the Android settings screen. Clients noticed that the notification drawer allowed user\'s to click on notifications and escape into the settings screen and being able to wipe the device. Therefore I designed and implemented a replace for the Android notification drawer that has a custom config file to allow/deny specific applications from sending notifications. The best part was working with designers to make sure the replace drawer was intuitive and not cluttered.',
-        'During my first summer I worked on around developing another platform for Android for Work. This platform allowed Bluefletch\'s Enterprise Mobility Services to communicate with non-rugged devices if a company already had a supply of Android devices. I was able to get first-hand experience in proper application architecture and using background services.',
+        'A different feature I was tasked with was about fixing a backdoor into the Android settings screen from the notification drawer. Clients noticed that the notification drawer allowed users the ability to click on notifications and privilege escalate into the settings screen and could then wipe the device. Therefore I designed and implemented a replacement for the Android notification drawer that has a custom configuration JSON file to allow/deny specific applications from sending notifications. The best part was working with designers to make sure the replacement drawer was intuitive and not cluttered.',
+        'During my first summer, I worked on developing another platform: Android for Work. This platform allowed Bluefletch\'s Enterprise Mobility Services to communicate with non-rugged devices if a company already had a supply of Android devices.',
         'I also was given a task to theme BlueFletch’s sample retail applications for a client meeting. I noticed the process of theming 5-6 apps for every meeting is very tedious and costs upwards of 5-7 hours to complete. To save hours for each demo request, I wrote a library to instantly update the theme on runtime for BlueFletch\'s Android applications. During a demo, developers and managers can also quickly and easily change colors and logos to showcase the customization of BlueFletch\'s product. This process taught me how to inject theme data during an Android app’s onResume statically. At the end of the project, I used Confluence to write documentation for how to use the new demo set apps for internal reference.',
         'In between large projects I worked on bug fixes, small feature implementations, and wrote documentation. I also attended weekly code reviews and received feedback on my pull requests about how to improve the function and style of my code from the senior developers. ']
     },
@@ -108,7 +108,7 @@ const experiences = {
       logoWidth: 130,
       logoHeight: 80,
       companylogo: require('../assets/img/companies/gt_logo.png'),
-      description: ['I the opportunity to give back to my local computer science community through assistanting my peers going through their computer science course journey.','Currently I am a graduate teaching assistant for CS 3451: Introduction to Computer Graphics, Focusing on WebGL.', 'As an undergraduate I was a teaching assistant for CS 4803: 3D User Interface Design in VR and for CS 1331: Intro to Object Oriented Programming. My responsibilities were to teach a 1½ hour weekly recitation, grade tests and homework, and help create assignments.'],
+      description: ['I had the opportunity to give back to my local computer science community by assisting my peers going through their own computer science course journey.','Currently, I am a graduate teaching assistant for CS 3451: Introduction to Computer Graphics, Focusing on WebGL.', 'As an undergraduate, I was a teaching assistant for CS 4803: 3D User Interface Design in VR and for CS 1331: Intro to Object Oriented Programming. My responsibilities were to teach a 1½ hour weekly recitation, hold office hours, grade tests \& homework, and help create assignments.'],
       role: 'Teaching Assistant at Georgia Tech',
       date: 'Jan 2019 – Present',
     },
@@ -119,7 +119,7 @@ const experiences = {
       description: ['Before I graduated I wanted to also explore doing research. I reached out to past professors and had the opportunity to work with my graphics professor on implementing virtual reality into a virtual conferencing platform.',
         'I lead a team of three students through the process of integrating WebXR using Babylon.js into a react typescript ' +
         'virtual conferencing codebase. This was my first time working on a production ready web project, so I was able to ' +
-        'learn a lot about web tools.', 'I also deployed the entire project to an EC2 instance with a backend PostgreSQL DB, NGINX web sever, and Auth0 for authentication.'],
+        'learn about all the challenges of the web.', 'I also deployed the entire project to an EC2 instance with a backend PostgreSQL DB, NGINX web server, and used Auth0 for authentication.'],
       companylogo: require('../assets/img/companies/gt_logo.png'),
       role: 'Undergraduate Research Assistant at Georgia Tech',
       date: 'Jan 2021 – Aug 2021',
@@ -129,15 +129,11 @@ const experiences = {
       logoWidth: 150,
       logoHeight: 80,
       description: ['Lead a selective 5-week STEM internship at Cisco for Rising' +
-      ' Seniors and Freshman in College. I facilitated 20 students in various activities and meetings regarding professional' +
+      ' Seniors and Freshmen in College. I facilitated 20 students in various activities and meetings regarding professional' +
       ' development, IOT solutions, and sales.',' During my time there, my main focus was on' +
       ' collecting feedback through talking with the students, on-site program coordinators,' +
-      ' program manager, and mentors. I compiled all the comments to create a final' +
-      ' presentation that outlines what the program excelled at and what changes to experiment with.', 'My' +
-      ' time as an intern coordinator gave me experience in leading a medium sized group' +
-      ' and handling all the needed logistics around a program while assimilating me to a' +
-      ' professional environment. I was also able to learn from my mentors and peers what' +
-      ' areas I should focus on that reflect my character.'],
+      ' program managers, and mentors. I compiled all the comments to create a final' +
+      ' presentation that outlines what the program excelled at and what changes to experiment with.'],
       companylogo: require('../assets/img/companies/cisco.png'),
       role: 'Intern Coordinator at Cisco Systems',
       date: 'May 2016 – July 2017',
@@ -161,7 +157,7 @@ const UnfolditProject = {
 
 const LauncherIPC = {
   name: "BlueFletch Secure Communication between Apps",
-  description: ['Used AES encryption to encrypt IPC channel through AIDL for secure synchronous data transfer between BluFletch\'s apps'],
+  description: ['Used AES encryption to encrypt an inter-process communication channel through an AIDL interface for secure synchronous communication between BluFletch\'s apps.'],
   playstore_link: null,
   image: require('../assets/img/android/aidl.jpg'),
   link: 'https://emsdocs.bluefletch.com/products/launcher/launcher_provider.html',
@@ -176,7 +172,7 @@ const LauncherIPC = {
 
 const LauncherSecureNotifications = {
   name: "BlueFletch Launcher Secure Notifications",
-  description: ['Designed a replacement Android notification drawer to lockdown access to system settings.', 'Reads from local configuration file to allow/deny specific applications from sending notifications.', 'After desiging and testing, I wrote up documentation for the feature to be shared with clients.'],
+  description: ['Designed a replacement Android notification drawer to lockdown access to system settings.', 'Reads from local configuration file to allow/deny specific applications from sending notifications.', 'After designing and testing, I wrote up documentation for the feature to be shared with clients.'],
   playstore_link: null,
   image: require('../assets/img/android/secure-notifications.jpg'),
   link: 'https://emsdocs.bluefletch.com/products/launcher/features/secureNotifications.html',
@@ -191,9 +187,9 @@ const LauncherSecureNotifications = {
 
 const SpaceTrader = {
   name: "SpaceTrader",
-  description: ['Lead my four person team on to create: Space Trader Android, a retro complex strategy game, redesigned for Android.',
-    'Programmed the Market Activity to calculate \& show buy/sell prices from player\'s inventory and skill level.',
-    'Designed the backend Room database with serialization for saving \& restoring player state.'],
+  description: ['Lead my four person team to create: Space Trader Android, a retro complex strategy game, redesigned for Android.',
+    'Programmed the Market Activity to calculate \& show market prices based on the player\'s inventory and skill level.',
+    'Designed the backend Room database with serialization for saving \& restoring player game state.'],
   playstore_link: null,
   image: require('../assets/img/android/spacetrader.jpg'),
   link: null,
@@ -207,7 +203,7 @@ const SpaceTrader = {
 
 const LauncherTheme = {
   name: "BlueFletch Launcher Theming",
-  description: ['Injected theme data during an Android app’s onResume statically.', 'Allows clients to use a custom configuration file to specify their logo, primary \& accent colors, and background images.', 'Used Confluence to write documentation for how to use the new demo set apps for internal reference.'],
+  description: ['Injected theme style data during an Android app’s onResume.', 'Allows clients to use a custom configuration file to specify their logo, primary \& accent colors, and background images.', 'Used Confluence to write documentation for how to use the library for the set of demo applications.'],
   playstore_link: null,
   image: require('../assets/img/android/bf-theme.jpg'),
   link: 'https://emsdocs.bluefletch.com/products/launcher/launcher_configurations.html#theme',
@@ -239,7 +235,7 @@ const androidProjects = [UnfolditProject, LauncherIPC, LauncherSecureNotificatio
 
 const personalWebsite = {
   name: "Personal Website",
-  description: ['Added custom work experience, project tabs, and main header to base react website from @hashirshoaeb.'],
+  description: ['Added custom work experience, project tabs, hobbies, and main header to base react website from @hashirshoaeb.'],
   playstore_link: null,
   image: require('../assets/img/web/personal-website.jpg'),
   link: 'http://ryanmiles.me',
@@ -307,7 +303,7 @@ const shakeMenu = {
 
 const pcg = {
   name: "Procedural Content Generation",
-  description: ['Created a procedurally generated world using perlin noise in Unity.','Also created flocking boids and procedurally generated trees.'],
+  description: ['Created a procedurally generated world using perlin noise in Unity.','Also created flocking boids and procedurally generated trees.', 'Move with the arrow keys and space/shift bar.'],
   playstore_link: null,
   image: require('../assets/img/graphics/pcg.jpg'),
   link: 'https://ryanm14.github.io/Unity-PCG-Build/',
@@ -430,7 +426,7 @@ const skills = {
     {name: "Firestore"},
     {name: "Firebase Analytics"},
     {name: "Dagger"},
-    {name: "OkHTTP"},
+    {name: "OkHttp"},
     {name: "Retrofit"},
     {name: "Picasso"},
     {name: "Fresco"},
@@ -439,8 +435,9 @@ const skills = {
   coursework: [
     {name: "Data Structures \& Algorithms",},
     {name: "Database Design"},
+    {name: "Software Engineering"},
     {name: "Computer Graphics"},
-    {name: "Game AI"},
+    {name: "Artificial Intelligence"},
     {name: "Computer Animation"},
   ],
   concepts: [
@@ -457,7 +454,7 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "I'm currently looking for full-time Software Engineering or Android Development opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "ryan.r.miles(at)gmail.com",
+  email: "ryan.r.miles@gmail.com",
 };
 
 

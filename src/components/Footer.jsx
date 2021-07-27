@@ -25,7 +25,7 @@ const Footer = (props) => {
           </small>
           <br/>
           <small className="text-muted">
-            Interest icons from: <a href='https://icons8.com'>icons8.com.</a>
+            Hobby icons from: <a href='https://icons8.com'>icons8.com.</a>
           </small>
         </p>
       </Container>
